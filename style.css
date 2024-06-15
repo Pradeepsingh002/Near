@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: rgb(215, 208, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 208, 231, 1) 66%,
+    rgba(213, 231, 235, 1) 100%
+  );
+}
+.container {
+  width: 90%;
+  height: 112.4vh;
+  margin-top: 30px;
+  background: white;
+}
+.nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 4%;
+}
+.one-div {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid #f3f3f3;
+}
+.one-div i {
+  padding-right: 30px;
+}
+.nav ul {
+  width: 40%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.two-div {
+  width: 24%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-left: 1px solid #f3f3f3;
+}
+.two-div span {
+  padding-inline: 8px;
+}
+#sp {
+  display: none;
+}
+.bg {
+  width: 100%;
+  height: 60vh;
+  background-image: url("./images/big-realistic-background-sand-dunes-desert-landscape-with-blue-sky_134830-1195.avif");
+  background-position: end;
+  background-size: cover;
+}
+.bg img {
+  display: none;
+}
+.text {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  background: rgba(255, 255, 255, 0.7);
+  color: #33363a;
+}
+.text .left {
+  width: 25%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.hr {
+  width: 150px;
+  height: 2px;
+  margin-inline: 10px;
+  background-color: rgb(82, 82, 82);
+}
+.text .right {
+  width: 70%;
+  height: 35vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.right h1 {
+  font-size: 46px;
+  font-weight: normal;
+}
+.right p {
+  font-size: 15px;
+  font-weight: 550;
+  padding-top: 20px;
+}
+.last {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.last div {
+  height: 22.6vh;
+  padding-left: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.last div p {
+  font-size: 14px;
+  color: rgb(86, 85, 85);
+}
+.last div:first-child {
+  width: 25.55%;
+  background: rgb(253, 254, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 254, 254, 1) 50%,
+    rgba(245, 246, 255, 1) 74%
+  );
+
+  border-left: 1px solid #f3f3f3;
+}
+
+.last div:nth-child(2) {
+  width: 26%;
+  background: rgb(245, 245, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 255, 1) 43%,
+    rgba(253, 249, 251, 1) 85%
+  );
+  border-left: 1px solid #f3f3f3;
+}
+.last div:last-child {
+  width: 26.1%;
+  border-left: 1px solid #f3f3f3;
+  background: rgb(247, 235, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 235, 239, 1) 45%,
+    rgba(251, 251, 251, 1) 100%
+  );
+}
+#blue {
+  color: #5f88ea;
+}
+#red {
+  color: #ea925b;
+}
+#vline-1 {
+  position: absolute;
+  top: 81px;
+  left: 381.2px;
+  width: 1px;
+  height: 417px;
+  background-color: #f3f3f3;
+}
+
+#vline-2 {
+  position: absolute;
+  top: 80px;
+  left: 71.5%;
+  width: 1px;
+  height: 417px;
+  background-color: #f3f3f3;
+}
+#vline-3 {
+  position: absolute;
+  top: 30px;
+  left: 48.12%;
+  width: 1px;
+  height: 468px;
+  background-color: #f3f3f3;
+}
+.color div:first-child {
+  background: rgb(248, 249, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 249, 251, 1) 8%,
+    rgba(237, 237, 254, 1) 29%
+  );
+}
+.color div:nth-child(2) {
+  background: rgb(248, 249, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 249, 251, 1) 10%,
+    rgba(237, 236, 254, 1) 100%
+  );
+}
+.color div:last-child {
+  background: none;
+  background: rgb(251, 246, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 246, 249, 1) 50%,
+    rgba(254, 254, 254, 1) 52%
+  );
+}
+#purple {
+  color: #9156e9;
+}
+
+/* Make Responsive */
+
+@media (max-width: 768px) {
+  .main {
+    height: auto;
+  }
+  .container {
+    height: auto;
+    margin-block: 10px;
+  }
+  .nav {
+    padding-inline: 1%;
+  }
+  .nav ul {
+    display: none;
+  }
+  .one-div {
+    width: auto;
+  }
+  .one-div i {
+    display: none;
+  }
+  #sp {
+    display: block;
+    padding-inline: 2%;
+  }
+  .bg {
+    width: 100%;
+    height: auto;
+    background-image: none;
+  }
+  .bg img {
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
+  .text {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .text .left {
+    width: 100%;
+    height: auto;
+    padding-inline: 5%;
+    padding-block: 30px;
+  }
+  .text span {
+    font-size: 30px;
+  }
+  .hr {
+    width: 160px;
+    height: 3px;
+  }
+  .text .right {
+    width: 100%;
+    height: auto;
+    padding-inline: 5%;
+  }
+  .right h1 {
+    font-size: 38px;
+    padding-block: 20px;
+  }
+  .right p br {
+    display: none;
+  }
+  .right p {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .last {
+    width: 100%;
+    align-items: start;
+    flex-direction: column;
+  }
+  .last div {
+    height: auto;
+    margin-top: 10px;
+    padding-right: 2%;
+    padding-block: 20px;
+  }
+  .last div h2 {
+    font-size: 26px;
+  }
+  .last div p {
+    font-size: 18px;
+    padding-block: 20px;
+  }
+  .last div:first-child {
+    width: 100%;
+  }
+  .last div:nth-child(2) {
+    width: 100%;
+  }
+  .last div:last-child {
+    width: 100%;
+  }
+  /* #vline-1,
+  #vline-2,
+  #vline-3 {
+    display: none;
+  } */
+  #vline-1 {
+    top: 10%;
+    left: 20%;
+    height: 32.82%;
+    background-color: rgba(247, 240, 240, 0.1);
+  }
+  #vline-2 {
+    top: 10%;
+    left: 80%;
+    height: 32.82%;
+    background-color: rgba(247, 240, 240, 0.2);
+  }
+  #vline-3 {
+    top: 10%;
+    height: 32.82%;
+    left: 50%;
+    background-color: rgba(247, 240, 240, 0.2);
+  }
+}
